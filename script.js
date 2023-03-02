@@ -43,7 +43,7 @@ function moveLines() {
 function endGame() {
     player.start = false;
     startScreen.classList.remove('hide');
-    startScreen.innerHTML = "<i><b><u>GAME OVER</u> </i><b><br> <br><hr> YOR FINAL SCORE IS " + player.score + " <hr><br> <i>PRESS HERE TO <b>RESTART</b></i>"
+    startScreen.innerHTML = "<i><b><u>GAME OVER</u> </i><b><br> <br><hr> YOUR FINAL SCORE IS " + player.score + " <hr><br> <i>PRESS HERE TO <b>RESTART</b></i>"
 
 }
 // to moveEnemy
